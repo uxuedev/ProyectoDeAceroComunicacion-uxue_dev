@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#0d235e"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/editPara"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Para"
+        android:textColorHint="#B0B0B0"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/editAsunto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Asunto"
+        android:textColorHint="#B0B0B0"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#FFFFFF"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/editMensaje"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:hint="Escribe tu mensaje..."
+        android:textColorHint="#B0B0B0"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#FFFFFF"
+        android:layout_marginTop="16dp"
+        android:gravity="top"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:id="@+id/btnEnviar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enviar"
+        android:textColor="#FFFFFF"
+        android:background="#D95007"
+        android:layout_marginTop="24dp" />
+</LinearLayout>

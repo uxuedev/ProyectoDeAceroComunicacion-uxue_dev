@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "586887861059",
+    "project_id": "proyectodeacero-d9012",
+    "storage_bucket": "proyectodeacero-d9012.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:586887861059:android:5f5c3e312a24ec8bd415f6",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVTbwAWNRRfSOtFPjnm9BeV5PF6_bzdAA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
